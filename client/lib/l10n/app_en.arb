@@ -1,0 +1,62 @@
+{
+  "@@locale": "en",
+  "appTitle": "Dungeon Companion",
+  "appSubtitle": "Manage your D&D characters",
+
+  "navigationHome": "Home",
+  "navigationCharacters": "Characters",
+  "navigationSpells": "Spells",
+  "navigationSkills": "Skills",
+  "navigationSettings": "Settings",
+
+  "charactersTitle": "My Characters",
+  "charactersEmpty": "No characters yet. Create your first character!",
+  "charactersCreateButton": "New Character",
+
+  "characterLevel": "Level",
+  "characterExperience": "Experience",
+  "characterHealth": "Health",
+  "characterAttributes": "Attributes",
+  "characterSpells": "Spells",
+  "characterSkills": "Skills",
+
+  "spellsTitle": "Spells",
+  "spellsEmpty": "No spells available",
+  "spellLevel": "Level",
+  "spellSchool": "School",
+  "spellCastingTime": "Casting Time",
+  "spellRange": "Range",
+  "spellComponent": "Component",
+  "spellDuration": "Duration",
+  "spellSavingThrow": "Saving Throw",
+  "spellDescription": "Description",
+
+  "skillsTitle": "Skills",
+  "skillsEmpty": "No skills available",
+  "skillKeyAbility": "Key Ability",
+  "skillTrainedOnly": "Trained Only",
+  "skillArmorCheckPenalty": "Armor Check Penalty",
+
+  "settingsTitle": "Settings",
+  "settingsLanguage": "Language",
+  "settingsLanguageEn": "English",
+  "settingsLanguageFr": "Français",
+  "settingsTheme": "Theme",
+  "settingsThemeLight": "Light",
+  "settingThemeDark": "Dark",
+  "settingsSync": "Sync with Server",
+
+  "buttonOk": "OK",
+  "buttonCancel": "Cancel",
+  "buttonSave": "Save",
+  "buttonDelete": "Delete",
+  "buttonEdit": "Edit",
+
+  "errorTitle": "Error",
+  "errorLoadingData": "Failed to load data",
+  "errorNetwork": "Network error. Check your connection.",
+  "errorUnknown": "An unknown error occurred",
+
+  "loadingMessage": "Loading...",
+  "savingMessage": "Saving..."
+}

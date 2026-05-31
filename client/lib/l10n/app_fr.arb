@@ -1,0 +1,62 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Compagnon Donjon",
+  "appSubtitle": "Gérez vos personnages D&D",
+
+  "navigationHome": "Accueil",
+  "navigationCharacters": "Personnages",
+  "navigationSpells": "Sorts",
+  "navigationSkills": "Compétences",
+  "navigationSettings": "Paramètres",
+
+  "charactersTitle": "Mes Personnages",
+  "charactersEmpty": "Aucun personnage créé. Créez votre premier personnage !",
+  "charactersCreateButton": "Nouveau Personnage",
+
+  "characterLevel": "Niveau",
+  "characterExperience": "Expérience",
+  "characterHealth": "Points de vie",
+  "characterAttributes": "Attributs",
+  "characterSpells": "Sorts",
+  "characterSkills": "Compétences",
+
+  "spellsTitle": "Sorts",
+  "spellsEmpty": "Aucun sort disponible",
+  "spellLevel": "Niveau",
+  "spellSchool": "École",
+  "spellCastingTime": "Temps d'incantation",
+  "spellRange": "Portée",
+  "spellComponent": "Composante",
+  "spellDuration": "Durée",
+  "spellSavingThrow": "Jet de sauvegarde",
+  "spellDescription": "Description",
+
+  "skillsTitle": "Compétences",
+  "skillsEmpty": "Aucune compétence disponible",
+  "skillKeyAbility": "Capacité clé",
+  "skillTrainedOnly": "Entraîné uniquement",
+  "skillArmorCheckPenalty": "Pénalité d'armure",
+
+  "settingsTitle": "Paramètres",
+  "settingsLanguage": "Langue",
+  "settingsLanguageEn": "English",
+  "settingsLanguageFr": "Français",
+  "settingsTheme": "Thème",
+  "settingsThemeLight": "Clair",
+  "settingThemeDark": "Sombre",
+  "settingsSync": "Synchroniser avec le serveur",
+
+  "buttonOk": "OK",
+  "buttonCancel": "Annuler",
+  "buttonSave": "Enregistrer",
+  "buttonDelete": "Supprimer",
+  "buttonEdit": "Modifier",
+
+  "errorTitle": "Erreur",
+  "errorLoadingData": "Impossible de charger les données",
+  "errorNetwork": "Erreur réseau. Vérifiez votre connexion.",
+  "errorUnknown": "Une erreur inconnue s'est produite",
+
+  "loadingMessage": "Chargement...",
+  "savingMessage": "Enregistrement..."
+}

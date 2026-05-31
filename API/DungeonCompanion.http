@@ -1,0 +1,6 @@
+@DungeonCompanion = http://localhost:5197
+
+GET {{DungeonCompanion}}/weatherforecast/
+Accept: application/json
+
+###

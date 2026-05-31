@@ -1,0 +1,40 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: API/Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__Default: Host=postgres;Port=5432;Database=dungeoncompanion;Username=dungeon;Password=dungeon_dev
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - dungeon
+
+  postgres:
+    image: postgres:16-alpine
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: dungeoncompanion
+      POSTGRES_USER: dungeon
+      POSTGRES_PASSWORD: dungeon_dev
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dungeon -d dungeoncompanion"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - dungeon
+
+volumes:
+  postgres_data:
+
+networks:
+  dungeon:
