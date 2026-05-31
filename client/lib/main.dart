@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:get/get.dart';
+
+import 'gen_l10n/app_localizations.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +25,7 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       title: 'Dungeon Companion',
       locale: _locale,
       localizationsDelegates: AppLocalizations.localizationsDelegates,

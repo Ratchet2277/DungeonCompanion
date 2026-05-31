@@ -1,7 +1,12 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
 import 'app_localizations.dart';
 
+// ignore_for_file: type=lint
+
+/// The translations for French (`fr`).
 class AppLocalizationsFr extends AppLocalizations {
-  AppLocalizationsFr() : super('fr');
+  AppLocalizationsFr([String locale = 'fr']) : super(locale);
 
   @override
   String get appTitle => 'Compagnon Donjon';
@@ -28,7 +33,8 @@ class AppLocalizationsFr extends AppLocalizations {
   String get charactersTitle => 'Mes Personnages';
 
   @override
-  String get charactersEmpty => 'Aucun personnage créé. Créez votre premier personnage !';
+  String get charactersEmpty =>
+      'Aucun personnage créé. Créez votre premier personnage !';
 
   @override
   String get charactersCreateButton => 'Nouveau Personnage';
